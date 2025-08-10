@@ -34,7 +34,8 @@ namespace Proyecto_Final
             }
 
             if ((username == "mod" && password == "bigdaddy69") ||
-                (username == "jjusino" && password == "COMP205"))
+                (username == "jjusino" && password == "COMP205")
+                (username == "admin" && password == "admin"))
             {
                 MessageBox.Show("Welcome, " + username + "!", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Here you could open the next window or form
